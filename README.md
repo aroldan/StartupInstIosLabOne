@@ -8,7 +8,7 @@ One tab is just a static view, while the other is a UITableView with a list of o
 
 ### Goals
 
-In this lab, you should accomplish three things:
+In this lab, you should accomplish several things:
 
  1. Add new aisles to the list of aisles in the UITableView.
  1. Modify the UITableView to show the number of each aisle as well as the name.
