@@ -15,7 +15,7 @@
 		A9176F6F193F8C3B00E68366 /* HSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9176F6E193F8C3B00E68366 /* HSAppDelegate.m */; };
 		A9176F72193F8C3B00E68366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9176F70193F8C3B00E68366 /* Main.storyboard */; };
 		A9176F75193F8C3B00E68366 /* HSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9176F74193F8C3B00E68366 /* HSFirstViewController.m */; };
-		A9176F78193F8C3B00E68366 /* HSSecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9176F77193F8C3B00E68366 /* HSSecondTableViewController.m */; };
+		A9176F78193F8C3B00E68366 /* HSGroceryAislesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9176F77193F8C3B00E68366 /* HSGroceryAislesTableViewController.m */; };
 		A9176F7A193F8C3B00E68366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9176F79193F8C3B00E68366 /* Images.xcassets */; };
 		A9176F81193F8C3B00E68366 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9176F80193F8C3B00E68366 /* XCTest.framework */; };
 		A9176F82193F8C3B00E68366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9176F5E193F8C3B00E68366 /* Foundation.framework */; };
@@ -50,8 +50,8 @@
 		A9176F71193F8C3B00E68366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9176F73193F8C3B00E68366 /* HSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFirstViewController.h; sourceTree = "<group>"; };
 		A9176F74193F8C3B00E68366 /* HSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSFirstViewController.m; sourceTree = "<group>"; };
-		A9176F76193F8C3B00E68366 /* HSSecondTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSSecondTableViewController.h; sourceTree = "<group>"; };
-		A9176F77193F8C3B00E68366 /* HSSecondTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSSecondTableViewController.m; sourceTree = "<group>"; };
+		A9176F76193F8C3B00E68366 /* HSGroceryAislesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSGroceryAislesTableViewController.h; sourceTree = "<group>"; };
+		A9176F77193F8C3B00E68366 /* HSGroceryAislesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSGroceryAislesTableViewController.m; sourceTree = "<group>"; };
 		A9176F79193F8C3B00E68366 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9176F7F193F8C3B00E68366 /* HelloWorldAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9176F80193F8C3B00E68366 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -127,8 +127,8 @@
 				A9176F70193F8C3B00E68366 /* Main.storyboard */,
 				A9176F73193F8C3B00E68366 /* HSFirstViewController.h */,
 				A9176F74193F8C3B00E68366 /* HSFirstViewController.m */,
-				A9176F76193F8C3B00E68366 /* HSSecondTableViewController.h */,
-				A9176F77193F8C3B00E68366 /* HSSecondTableViewController.m */,
+				A9176F76193F8C3B00E68366 /* HSGroceryAislesTableViewController.h */,
+				A9176F77193F8C3B00E68366 /* HSGroceryAislesTableViewController.m */,
 				A9B1812F193FA67100752B2C /* HSGroceryAisleCell.h */,
 				A9B18130193FA67100752B2C /* HSGroceryAisleCell.m */,
 				A9176F79193F8C3B00E68366 /* Images.xcassets */,
@@ -275,7 +275,7 @@
 			files = (
 				A9176F6B193F8C3B00E68366 /* main.m in Sources */,
 				A9B18131193FA67100752B2C /* HSGroceryAisleCell.m in Sources */,
-				A9176F78193F8C3B00E68366 /* HSSecondTableViewController.m in Sources */,
+				A9176F78193F8C3B00E68366 /* HSGroceryAislesTableViewController.m in Sources */,
 				A9176F75193F8C3B00E68366 /* HSFirstViewController.m in Sources */,
 				A9176F6F193F8C3B00E68366 /* HSAppDelegate.m in Sources */,
 				A9B1812E193FA52C00752B2C /* HSGroceryAisle.m in Sources */,

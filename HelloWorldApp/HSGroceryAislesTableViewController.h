@@ -1,5 +1,5 @@
 //
-//  HSSecondViewController.h
+//  HSGroceryAislesTableViewController.h
 //  HelloWorldApp
 //
 //  Created by Anthony Roldan on 6/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HSSecondTableViewController : UITableViewController
+@interface HSGroceryAislesTableViewController : UITableViewController
 
 @end

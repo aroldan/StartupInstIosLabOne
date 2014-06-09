@@ -1,22 +1,22 @@
 //
-//  HSSecondViewController.m
+//  HSGroceryAislesTableViewController.m
 //  HelloWorldApp
 //
 //  Created by Anthony Roldan on 6/4/14.
 //  Copyright (c) 2014 HubSpot. All rights reserved.
 //
 
-#import "HSSecondTableViewController.h"
+#import "HSGroceryAislesTableViewController.h"
 #import "HSGroceryAisleCell.h"
 #import "HSGroceryAisle.h"
 
-@interface HSSecondTableViewController ()
+@interface HSGroceryAislesTableViewController ()
 
 @property (nonatomic) NSArray *aisles;
 
 @end
 
-@implementation HSSecondTableViewController
+@implementation HSGroceryAislesTableViewController
 
 - (void)viewDidLoad
 {
@@ -46,6 +46,25 @@
                             @"Beer and Wine",
                             ];
     
+    NSArray *items = @[@"Taco Meat",
+                       @"Tecate",
+                       @"Cilantro",
+                       @"Cheerios",
+                       @"Peanut Butter",
+                       @"Ice Cream",
+                       @"Jelly",
+                       @"Refried Beans",
+                       @"Baguette",
+                       @"Olives",
+                       @"Chicken Breast",
+                       @"Marshmallow Fluff",
+                       @"Salmon",
+                       @"Green Beans",
+                       @"Canned Tuna",
+                       @"Mint Chutney",
+                       @"Carrots",
+                       @"Sandwiches"];
+    
     // NSArrays and NSDictionaries (including those declared statically) are immutable
     // if you want a mutable type, you have to say so.
     NSMutableArray *aisles = [[NSMutableArray alloc] init]; // [[NSObject alloc] init] is what you think should be new NSObject();
@@ -61,6 +80,16 @@
     }];
 
     return [aisles copy]; // copy to get an immutable copy of this array
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSLog(@"Preparing for segue.");
+}
+
+#pragma mark - UITableViewDelegate methods
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"Selected row with index %ld", indexPath.row);
 }
 
 #pragma mark - UITableViewDataSource methods
@@ -80,7 +109,6 @@
     
     // assign properties to view
     [groceryCell.nameLabel setText:aisle.name];
-    groceryCell.numberLabel.text = [NSString stringWithFormat:@"%@", aisle.number];
     
     return cell;
 }

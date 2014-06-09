@@ -10,7 +10,6 @@
 
 @interface HSGroceryAisleCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *numberLabel;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end
